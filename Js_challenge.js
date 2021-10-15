@@ -20,3 +20,11 @@ number = 1;
 function addition(number) {
     return result + 1;
 }
+/* Challenge Number 4*/
+/* Difficulty: very easy*/
+/*Write a function that takes the base and height of a triangle and return its area.*/
+base = 3;
+height = 2;
+function triArea(base, height) {
+    return (base * height) / 2;
+}
