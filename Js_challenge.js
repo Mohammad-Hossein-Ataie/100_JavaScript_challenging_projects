@@ -28,3 +28,17 @@ height = 2;
 function triArea(base, height) {
     return (base * height) / 2;
 }
+/* Challenge Number 5*/
+/* Difficulty: easy*/
+/*Write three functions to calculate the bitwise AND, bitwise OR and bitwise XOR of two numbers.*/
+bnum1 = toString(num1);
+bnum2 = toString(num2);
+function bitwiseAND(bnum1, bnum2) {
+    return bnum1 & bnum2;
+}
+function bitwiseOR(bnum1, bnum2) {
+    return bnum1 | bnum2;
+}
+function bitwiseXOR(bnum1, bnum2) {
+    return bnum1 ^ bnum2;
+}
