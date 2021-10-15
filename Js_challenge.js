@@ -1,7 +1,7 @@
 /* Challenge Number 1*/
 /* Difficulty: very easy*/
 /*Create a function that takes two numbers as arguments and return their sum.*/
-let x = func(4, 3);
+let result = func(4, 3);
 
 function func(a, b) {
     return a + b;
@@ -12,4 +12,11 @@ function func(a, b) {
 var minut = 3
 function func2(minut) {
     return result * 60;
+}
+/* Challenge Number 3*/
+/* Difficulty: very easy*/
+/*Create a function that takes a number as an argument, increments the number by +1 and returns the result.*/
+number = 1;
+function addition(number) {
+    return result + 1;
 }
