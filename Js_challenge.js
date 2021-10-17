@@ -49,7 +49,7 @@ function bitwiseXOR(bnum1, bnum2) {
  For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.*/
 var result = 0;
 function addUp(num) {
-    for (i = 1; i < num; i++) {
+    for (let i = 1; i < num; i++) {
         result = result + i;
     }
     return result;
@@ -62,4 +62,20 @@ var num = 3;
 function shiftToLeft(num, shift) {
     result = num * math.pow(2, shift);
     return result;
+}
+/* Challenge Number 8*/
+/* Difficulty: easy*/
+/*Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.*/
+const numList = [1, 2, 3, 4, 5];
+var min = 1000;
+var max = 0;
+function minMax(numList) {
+    for (let i = 0; i < numList.length; i++) {
+        if (numList[i] < min) {
+            min = numList;
+        }
+        if (numList[i] > max) {
+            max = numList[i];
+        }
+    }
 }
