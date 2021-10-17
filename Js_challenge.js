@@ -54,3 +54,12 @@ function addUp(num) {
     }
     return result;
 }
+/* Challenge Number 7*/
+/* Difficulty: easy*/
+/*Write a function that mimics (without the use of <<) the left shift operator and returns the result from the two given integers.*/
+var result = 0;
+var num = 3;
+function shiftToLeft(num, shift) {
+    result = num * math.pow(2, shift);
+    return result;
+}
