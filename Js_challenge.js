@@ -79,3 +79,16 @@ function minMax(numList) {
         }
     }
 }
+/* Challenge Number 9*/
+/* Difficulty: medium*/
+/*Create a function which returns the number of true values there are in an array.*/
+const boolArray = [true, false, false, true, false];
+result = 0;
+function countTrue(boolArray) {
+    for (let i = 0; i < boolArray.length; i++) {
+        if (boolArray[i] = true) {
+            result = result + 1;
+        }
+    }
+    return result;
+}
